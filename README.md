@@ -1,2 +1,2 @@
 # gcforest
-some algorithms about Random Forest
+Ensemble of random forest, based on scilearn library with python3.6.5
