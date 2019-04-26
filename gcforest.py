@@ -131,7 +131,7 @@ class gcForest(object):
             raise ValueError('Sizes of y and X do not match.')
 
         mgs_X = self.mg_scanning(X, y)
-        _ = self.cascade_forest(mgs_X, y)
+        self.cascade_forest(mgs_X, y)
 
     def predict_proba(self, X):
         """ Predict the class probabilities of unknown samples X.
