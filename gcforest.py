@@ -29,7 +29,7 @@ __license__ = None
 __version__ = "1.0.1"
 __status__ = "Development"
 
-__all__ = ['Gcorest']
+__all__ = ['Gcforest']
 
 
 
