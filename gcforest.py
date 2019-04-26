@@ -29,16 +29,16 @@ __license__ = None
 __version__ = "1.0.1"
 __status__ = "Development"
 
-__all__ = ['gcForest']
+__all__ = ['Gcorest']
 
 
 
-class gcForest(object):
+class Gcforest(object):
 
     def __init__(self, shape_1X=None, n_mgsRFtree=30, windows=None, stride=1,
                  cascade_test_size=0.2, n_cascadeRF=2, n_cascadeRFtree=101, cascade_layer=np.inf,
                  min_samples_mgs=0.1, min_samples_cascade=0.05, tolerance=0.0, callback=False, n_jobs=1):
-        """ gcForest Classifier.        
+        """ Gcforest Classifier.        
        ----------Parameters-----------------------------------------------------------------------------
         shape_1X: int or tuple list or np.array (default=None)
             Shape of a single sample element [n_lines, n_cols]. Required when calling mg_scanning!
